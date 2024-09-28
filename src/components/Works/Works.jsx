@@ -25,14 +25,17 @@ const Works = () => {
           </span>
           <span>Brands & Clients</span>
           <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+            Frontend: Developed interactive UI components for educational courses using React
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+             Backend: Built RESTful APIs with Node.js and Express to manage user data and course content.
+
+ 
             <br />
-            y dummy text of printingLorem
+           Created responsive websites with modern CSS frameworks like Bootstrap and Tailwind.
+
+ 
             <br />
-            ispum is simpley dummy text of printing
+            Full Stack: Created a comprehensive e-learning platform from scratch.
           </spane>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
