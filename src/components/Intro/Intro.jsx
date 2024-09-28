@@ -30,8 +30,13 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hey! I Am</span>
           <span>Irfan Ansari</span>
           <span>
-            Full Stack Web Developer with high level of experience in web designing
-            and development, producting the Quality work
+             Highly motivated and results-oriented MERN Stack developer with 3 years of 
+          experience designing, developing, and deploying robust web applications. 
+          Possesses a strong understanding of front-end and back-end technologies, 
+          including React.js, Node.js, Express.js, and MongoDB. Proven ability to deliver
+           high-quality, scalable, and user-friendly applications on time and within budget. 
+           Eager to contribute expertise and collaborate with a team to build innovative web
+            solutions.
           </span>
         </div>
         <Link to="contact" smooth={true} spy={true}>
@@ -39,8 +44,8 @@ const Intro = () => {
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
+          <a href="https://github.com/ansarirfan"><img  src={Github} alt="" /></a>
+           <a href="https://www.linkedin.com/in/irfan-ansari-825b33239?"><img src={LinkedIn} alt="" /></a>
           <img src={Instagram} alt="" />
         </div>
       </div>
@@ -75,7 +80,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="MERN Stack Dev." text2="Award" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
